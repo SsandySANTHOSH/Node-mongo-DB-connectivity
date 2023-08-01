@@ -190,7 +190,6 @@ app.get("/mentor/:mentorId/studentList", async (req, res) => {
   }
 });
 
-
 app.get("/student/:studentId/previousMentor", async (req, res) => {
   try {
     const { studentId } = req.params;
